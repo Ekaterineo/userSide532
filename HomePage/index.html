@@ -268,17 +268,17 @@
         localStorage.setItem("noRooms",$("#myRange").val());
         if(document.getElementById("checkbox1").checked ==true){
           localStorage.setItem("reservationType","prepaid");
-          location.href="bookandpay.html";
+          location.href="BookandPay.html";
         }
         else
         if(document.getElementById("checkbox2").checked ==true){
           localStorage.setItem("reservationType","sixtyDaysAdv");
-          location.href="book.html";
+          location.href="Book.html";
         }
           else
         if(document.getElementById("checkbox3").checked ==true){
-          localStorage.setItem("reservationType","sixtyDaysAdv");
-          location.href="bookandpay.html";
+          localStorage.setItem("reservationType","conventional");
+          location.href="BookandPay.html";
         }
 
         console.log(localStorage.getItem("checkin"),"checkin" );

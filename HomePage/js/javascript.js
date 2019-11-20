@@ -125,7 +125,7 @@ function bookAndPay(pay){
           success: function (data, status) {
               if (data.success === 1) {
                   localStorage.setItem("rid", data.data.rid); 
-                  location.href='bookingCompleted.html';
+                  location.href='BookingCompleted.html';
               }
               else{
                 alert('Error Occured During Booking Please Try Again');
